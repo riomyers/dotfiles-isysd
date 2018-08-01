@@ -1,0 +1,22 @@
+[user]
+	username = isysd
+	name = Ira Miller
+	location = Panama
+	website = iramiller.com
+	email = public@iramiller.com
+	signingkey = C7EA0E59D0660BF6848614B6441BDDD420F44729
+[commit]
+	gpgsign = true
+[aliases]
+	keybase = isysd
+	reddit = isysd
+	github = isysd
+	bitbucket = isysd
+	gitlab = isysd
+	npm = isysd
+	twitter = iravagecoins
+	instagram = iravagecoins
+[alias]
+	pushall = !git remote | xargs -L1 -I R git push R $2
+[merge "ours"]
+	driver = true
